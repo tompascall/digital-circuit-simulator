@@ -6,7 +6,7 @@ const getInverter = require('./inverter');
 
 const probe = (name, wire, agenda) => {
   wire.addAction(() => {
-    console.log(`\n${name} ${agenda.getCurrentTime()}\nNew value = ${wire.getSignal()}`);
+    console.log(`\n${name} ${agenda.getSimulationTime()}\nNew value = ${wire.getSignal()}`);
   });
 };
 
