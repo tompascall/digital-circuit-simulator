@@ -1,0 +1,20 @@
+{
+  "name": "digital-circuit-simulator",
+  "version": "1.0.0",
+  "description": "digital circuit simulation",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "simulation",
+    "digital",
+    "circuit",
+    "sicp"
+  ],
+  "author": "tompascall",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
