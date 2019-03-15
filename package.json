@@ -4,7 +4,9 @@
   "description": "digital circuit simulation",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "freestyle": "node src/freestyle/main.js",
+    "freestyle-test": "jest src/freestyle",
+    "typescript": "rm -rf src/typescript/dist && tsc src/typescript/main.ts --outDir src/typescript/dist && node src/typescript/dist/main.js"
   },
   "keywords": [
     "simulation",
@@ -15,6 +17,7 @@
   "author": "tompascall",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^24.1.0"
+    "jest": "^24.1.0",
+    "typescript": "^3.3.3333"
   }
 }
