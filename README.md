@@ -32,9 +32,16 @@ The implementation is quite close to the original implementation. We have an age
 
 #### Run demo
 
-```node src/freestyle/main.js```
+```npm run freestyle```
 
 #### Run tests
 
 ```npm test```
 
+### Typescript
+
+The same implementation as freestyle, but using typescript.
+
+#### Run demo
+
+```npm run typescript```
